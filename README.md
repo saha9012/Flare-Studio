@@ -100,9 +100,11 @@ src/
 
 ## Деплой на GitHub Pages
 
-1. В `vite.config.js`: `base: '/flare-studio/'` (имя репозитория).
-2. `npm i -D gh-pages`, скрипт `"deploy": "npm run build && gh-pages -d dist"`.
-3. `npm run deploy`.
+Сайт: **https://saha9012.github.io/Flare-Studio/**
+
+1. **Settings → Pages → Build and deployment → Source:** выберите **GitHub Actions** (не «Deploy from branch»).
+2. При push в `main` workflow `.github/workflows/deploy-pages.yml` собирает `dist` и публикует его.
+3. В `vite.config.js` уже задано `base: '/Flare-Studio/'` — путь должен совпадать с именем репозитория (регистр важен).
 
 ---
 
