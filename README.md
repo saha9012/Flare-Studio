@@ -6,7 +6,7 @@
 [![Framer Motion](https://img.shields.io/badge/Motion-animations-ff0055)](https://www.framer.com/motion/)
 
 > **Демо-лендинг цифровой студии FLARE** для портфолио на GitHub. Молодёжный tech-визуал, glass UI, плавные анимации и современный стек.
-
+https://saha9012.github.io/Flare-Studio/
 ---
 
 ## Для заказчиков
